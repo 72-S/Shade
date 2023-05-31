@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const animationDuration = 1000; // Duration of the typing animation in milliseconds
     const recordButton = document.getElementById("recordButton");
     const urlParams = new URLSearchParams(window.location.search);
-    const apiKey = urlParams.get("71f9e093-3ba3-4b70-a757-05529a075bc7"); // Get API Key from URL
+    const apiKey = urlParams.get("71f9e0933ba34b70a75705529a075bc7"); // Get API Key from URL
     let recording = false;
     let myvad = null;
   
